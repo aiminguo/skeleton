@@ -1,0 +1,10 @@
+*.class
+*.log
+.idea/
+target/
+.DS_Store
+.metals/
+.bloop/
+target/.*
+project/boot/
+project/plugins/project/

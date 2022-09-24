@@ -1,6 +1,6 @@
 import play.api.libs.json._
 
-case class Car(make: String, model: String, cost: Int)
+case class Car(make: String, model: String, cost: Int, madeTS: Option[Long] = None)
 object Car {
   implicit val carReads: Reads[Car] = Json.reads[Car]
 }
@@ -25,7 +25,7 @@ object Main {
   """.stripMargin
 
     val parsedJsValue = Json.parse(json)
-    val parsed  = Json.fromJson[List[Car]](parsedJsValue).get
+    val parsed  = Json.fromJson[List[Car]](parsedJsValue)
     println(parsed)
   }
 }
