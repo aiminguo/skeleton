@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:1:8: not found: object play[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.libs.json._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:5:26: not found: type Reads[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val carReads: Reads[Car] = ([0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:6:6: not found: value JsPath[0m
+[0m[[0m[31merror[0m] [0m[0m    (JsPath \ "make").read[String] and[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:7:8: not found: value JsPath[0m
+[0m[[0m[31merror[0m] [0m[0m      (JsPath \ "model").read[String] and[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:8:8: not found: value JsPath[0m
+[0m[[0m[31merror[0m] [0m[0m      (JsPath \ "cost").read[Int][0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:31:25: not found: value Json[0m
+[0m[[0m[31merror[0m] [0m[0m    val parsedJsValue = Json.parse(json)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/aiguo/projects/skeleton/src/main/scala/Main.scala:32:18: not found: value Json[0m
+[0m[[0m[31merror[0m] [0m[0m    val parsed = Json.fromJson[List[Car]](parsedJsValue)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
